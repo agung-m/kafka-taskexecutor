@@ -33,6 +33,7 @@ public class TaskWorkerTest {
 					e.printStackTrace();
 				}
 				data.setFinishTimeMs(System.currentTimeMillis());
+				data.status = "finished";
 				return true;
 			}
 		};

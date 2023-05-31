@@ -18,9 +18,14 @@ public class RemoteData {
 	@JsonProperty
 	public String finishTime;
 	
+	@JsonProperty
+	public String status;
+	
 	private SimpleDateFormat dateFormatter = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
 	
-	public RemoteData() {}
+	public RemoteData() {
+		this("");
+	}
 	
 	public RemoteData(String id) {
 		this(id, "", "", "");
@@ -35,6 +40,7 @@ public class RemoteData {
 		this.value = value;
 		this.submitTime = submitTime;
 		this.finishTime = finishTime;
+		this.status = "";
 	}
 	
 	public void setSubmitTimeMs(long ms) {
@@ -58,7 +64,7 @@ public class RemoteData {
 	@Override
 	public String toString() {
 		return "{id=" + id + ", value=" + value + ", submitTime=" + submitTime
-				+ ", finishTime=" + finishTime + "}";
+				+ ", finishTime=" + finishTime + ", status=" + status + "}";
 	}
 	
 }
