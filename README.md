@@ -11,14 +11,21 @@ Kafka-taskexecutor is a Java-based [task executor](https://docs.spring.io/spring
    - MapReduce and embarrassingly parallel scenarios can be easily implemented
    - Custom functionalities for TaskWorker by implementing the WorkerFunction interface
 
+## Usage
+You need [Java SDK](https://www.oracle.com/uk/java/technologies/java-se-glance.html) and [Maven](https://maven.apache.org/) to compile. All dependencies will be resolved automatically.
+
+If you are new to Maven, [this guide](https://maven.apache.org/guides/getting-started/maven-in-five-minutes.html) will be useful.
+
+See [the example](src/main/java/com/tritronik/kafka/test/TaskExecutorTest.java) to get started.
+
 ## License
-Apache License 2.0
+[Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0)
 
 ## Contributions
 
 Everyone is welcome to contribute (see [license](/LICENSE)). The current maintainer is [agung-m](https://github.com/agung-m)
 
-Bugs should be reported in [issues](https://github.com/agung-m/kafka-taskexecutor/issues)
+Bugs and suggestions should be reported in [issues](https://github.com/agung-m/kafka-taskexecutor/issues)
 
 
 
