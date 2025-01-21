@@ -1,6 +1,8 @@
-# kafka-taskexecutor
+# Kafka Task Executor
 
-Kafka-taskexecutor is a Java-based [task executor](https://docs.spring.io/spring-framework/reference/integration/scheduling.html) on Kafka.
+[![Java CI with Maven](https://github.com/agung-m/kafka-taskexecutor/actions/workflows/maven.yml/badge.svg)](https://github.com/agung-m/kafka-taskexecutor/actions/workflows/maven.yml)
+
+kafka-taskexecutor is a Java-based [task executor](https://docs.spring.io/spring-framework/reference/integration/scheduling.html) on Kafka.
 
 ## Key features
 * Highly scalable; tasks are distributed to Kafka nodes, inheriting Kafka's scalability
