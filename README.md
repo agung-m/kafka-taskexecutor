@@ -18,6 +18,9 @@ You need [Java SDK](https://www.oracle.com/uk/java/technologies/java-se-glance.h
 
 If you are new to Maven, [this guide](https://maven.apache.org/guides/getting-started/maven-in-five-minutes.html) will be useful.
 
+To build:  
+`mvn -B package --file pom.xml`
+
 See [the example](src/main/java/com/tritronik/kafka/test/TaskExecutorTest.java) to get started.
 
 ## License
@@ -25,11 +28,11 @@ See [the example](src/main/java/com/tritronik/kafka/test/TaskExecutorTest.java) 
 
 ## Contributions
 
-Everyone is welcome to contribute (see [license](/LICENSE)). The current maintainer is [agung-m](https://github.com/agung-m)
+Everyone is welcome to contribute (see [license](/LICENSE)).
 
-Bugs and suggestions should be reported in [issues](https://github.com/agung-m/kafka-taskexecutor/issues)
+Bugs and suggestions should be reported in [issues](https://github.com/agung-m/kafka-taskexecutor/issues).
 
-
+The current maintainer is [agung-m](https://github.com/agung-m).
 
 ## Architecture
 ![alt text](doc/resources/kt-architecture.png)
